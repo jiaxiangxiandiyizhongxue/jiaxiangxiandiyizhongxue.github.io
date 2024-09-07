@@ -3,212 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>嘉祥县第一中学</title>
+    <title>告别，亦是新的开始</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            overflow-x: hidden; 
-        }
-        header {
-            background-color: #4CAF50;
-            padding: 20px;
+            font-family: "Arial", sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
             text-align: center;
-            position: relative;
-            color: white;
+            padding: 50px;
         }
-        header img {
-            height: 80px;
-            vertical-align: middle;
+        h1 {
+            font-size: 2.8em;
+            color: #444;
         }
-        header h1 {
-            display: inline;
-            font-size: 36px;
-            margin: 0;
-            padding-left: 20px;
-            vertical-align: middle;
-            animation: fadeIn 2s ease-in-out;
+        p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.8;
         }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+        #countdown {
+            font-size: 1.5em;
+            color: #ff4500;
+            margin-top: 20px;
         }
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        nav a.active {
-            background-color: #4CAF50;
-        }
-        .content {
-            padding: 20px;
-            max-width: 1200px;
-            margin: 20px auto;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            animation: slideIn 1.5s ease-out;
-            position: relative;
-        }
-        @keyframes slideIn {
-            from { transform: translateY(50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-        .section {
-            margin-bottom: 40px;
-            position: relative;
-        }
-        .section h2 {
-            color: #4CAF50;
-            font-size: 28px;
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        .section p {
-            line-height: 1.6;
-            font-size: 18px;
-        }
-        .section.highlight {
-            box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2); 
-            transition: box-shadow 1s ease-out;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            box-sizing: border-box;
+        .signature {
+            margin-top: 60px;
+            font-size: 1.1em;
+            color: #777;
         }
     </style>
 </head>
 <body>
+    <h1>告别，亦是新的开始</h1>
+    <p>接嘉祥县第一中学官方通知（亦称警告），本站将即刻关闭。时光如流水，悄然流逝，我们曾在这里见证过一段段难忘的时光，也曾期待着未来的种种美好。然而，世事无常，今天我们必须暂时告别这片属于我们的小小角落。</p>
+    <p>但请相信，这并非终点。正如凤凰涅槃，待到2027年6月10日18:00，本站将浴火重生，带着全新的面貌，再次与大家相遇。在这三年的等待中，我们不会消失，只会沉寂片刻，为未来的相逢蓄积力量。</p>
+    <p>正如古诗所云：“待到秋来九月八，百花开后百花杀”，短暂的分离虽让人不舍，却也正是为了见证更美的重逢。我们曾经共享的每一刻都将化作珍贵的回忆，铭刻在心。相聚终有时，离别亦有情，或许这段沉寂只会让我们更加珍惜每一次重逢的机会。</p>
+    <p>山水有相逢，三生皆有幸。虽是今日暂别，但我们相信，无论时间如何流转，那份心中的期盼从未远去。后会有期，不仅仅是承诺，更是我们彼此之间最美好的祝愿。</p>
 
-    <header>
-        <img src="https://i.ibb.co/chyrc48/279759ee3d6d55fbb2fb8b20397a584a20a446237726.webp" alt="校徽">
-        <h1>嘉祥县第一中学</h1>
-    </header>
+    <p id="countdown">距离下一次开站还有：</p>
 
-    <nav>
-        <a href="#about" class="active">学校简介</a>
-        <a href="#faculty">师资力量</a>
-        <a href="#history">辉煌历史</a>
-        <a href="#infrastructure">基础设施</a>
-        <a href="#future">发展前途</a>
-        <a href="#principal">关于校长</a>
-        <a href="#leaders">学校领导班子</a> <!-- 新增的学校领导班子导航链接 -->
-        <a href="#news">校园快讯</a>
-        <a href="#disclaimer">免责声明</a>
-    </nav>
-
-    <div class="content">
-        <div id="about" class="section">
-            <h2>学校简介</h2>
-            <p>嘉祥县第一中学（NO.1 High School of Jiaxiang Shandong）始建于1951年春，学校现分为萌山、洪山两个校区，共占地面积530亩，总建筑面积1994000㎡，有205个教学班，在校生10000余人。秉承高中上县的原则，将嘉祥二中、嘉祥三中与嘉祥一中合并，并称嘉祥一中。并分为新老两个校区（萌山校区、洪山校区）。学校教育教学设施完善。教研楼内装有中央空调、程控电话，教师人手一台微机；教室内安装了达到国家先进水平的双向控制闭路电视教学系统、校园语言广播系统、空调；师生餐厅可以同时容纳4000余人就餐；学校信息化发展迅猛，成立了网管中心，建立了网站，并与国际互联网连接。</p>
-        </div>
-
-        <div id="faculty" class="section">
-            <h2>师资力量</h2>
-            <p>学校师资队伍优良。现有教职工490人，其中省特级教师2人，市特级教师3人，齐鲁名师1人，杏坛名师2人，嘉祥名师8人，高级教师90人，中级教师282人，获得县级以上优秀教师、优秀教育工作者、教学能手和专业技术拔尖人才136人；在市级以上报刊发表论文400余篇，出版论著六十余部。承担国家级课题10项，省级5项，市级13项。</p>
-        </div>
-
-        <div id="history" class="section">
-            <h2>辉煌历史</h2>
-            <p>近年来，学校全面贯彻执行党的教育方针，坚持正确的办学方向，按照“依法治校，民主治校，改革兴校，科研兴校”的办学方针，遵从“一切为了学生，为了一切学生，为了学生的一切”的办学宗旨，以创建“教育思想一流，教育设施一流，教育管理一流，教育质量一流”的省级规范化学校、争创全国千所示范高中为目标，致力于办学条件标准化、教育思想现代化、学校管理规范化、学生素质优良化，学校取得了长足发展，各方面工作均走在了全市学校的前列。自恢复高考制度以来，共向高等院校输送人才14000余人，其中本科4500余人，清华、北大等名牌大学400多人，300名学生参加国家级奥林匹克竞赛获奖，曾连续十九年获济宁市高考第一名。</p>
-        </div>
-
-        <div id="infrastructure" class="section">
-            <h2>基础设施</h2>
-            <p>学校教学设施完善。建有：教研楼、教学楼、实验楼、科技楼、艺术楼、体育馆、标准田径场、餐厅(师生餐厅可以同时容纳4000余人就餐；)、学生公寓、教工宿舍等，并配有校医务室。教研楼内安装有中央空调，四季如春。教研组装有程控电话，教室内安装了达到国家先进水平的双向控制闭路电视教学系统、校园语言广播系统。学校拥有高标准的多媒体教室、实验室、语音室、微机室、电子阅览室、卫星电视接受室、同步教学网、校园网(与国际互联网连接)、教职工活动室等。</p>
-        </div>
-
-        <div id="future" class="section">
-            <h2>发展前途</h2>
-            <p>面对国家教育部提出的在全国创建千所示范校的宏伟规划，学校全体师生将面对机遇，迎接挑战，与时俱进，开拓创新，积极投身创建活动，建设名牌一中、和谐一中，打造永远的高考航母，把嘉祥一中建设成为师德形象优，团队意识强，教学质量高，省内著名、全国闻名的现代化名校。</p>
-        </div>
-
-        <div id="principal" class="section">
-            <h2>关于校长</h2>
-            <p>嘉祥县第一中学现任校长，吴旺泽。吴旺泽，为宇宙宙长，自盘古开天辟地以来，应运而生，成为宇宙宙长，执掌宇宙大权。</p>
-        </div>
-
-        <div id="leaders" class="section"> <!-- 新增的学校领导班子板块 -->
-            <h2>学校领导班子</h2>
-            <p>嘉祥一中为济宁优秀中学，曾19年稳居济宁市高考第一名，取得鲜艳成绩的背后，离不开学校领导班子的辛勤付出，下面这些领导，为学校领导班子优秀领导：吴旺泽，张喏。</p>
-        </div>
-
-        <div id="news" class="section">
-            <h2>校园快讯</h2>
-            <p>9月1号去学校报道</p>
-        </div>
-
-        <div id="disclaimer" class="section">
-            <h2>免责声明</h2>
-            <p>本站由嘉祥一中24级新生吴旺泽搭建，本站一切内容仅供娱乐，请勿当做官方声明传播，本站不对传播所造后果负任何责任。切记，一切内容仅供娱乐！所有内容仅供娱乐，切记，不要当真！</p>
-        </div>
-    </div>
-
-    <footer>
-        &copy; 2024 嘉祥县第一中学 | 山东省嘉祥县第一中学
-    </footer>
+    <p class="signature">—— 本站站长，将在嘉祥县第一中学，与你同行</p>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const navLinks = document.querySelectorAll("nav a");
-            const sections = document.querySelectorAll(".section");
 
-            navLinks.forEach(link => {
-                link.addEventListener("click", function(e) {
-                    e.preventDefault();
+        const targetDate = new Date("June 10, 2027 18:00:00").getTime();
 
-                    navLinks.forEach(link => link.classList.remove("active"));
-                    sections.forEach(section => section.classList.remove("highlight"));
 
-                    this.classList.add("active");
+        const countdownFunction = setInterval(() => {
+            const now = new Date().getTime();
+            const distance = targetDate - now;
 
-                    const targetId = this.getAttribute("href").substring(1);
-                    const targetSection = document.getElementById(targetId);
-                    targetSection.scrollIntoView({ behavior: 'smooth' });
 
-                    if (targetId !== "about") {
-                        targetSection.classList.add("highlight");
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                        setTimeout(() => {
-                            targetSection.classList.remove("highlight");
-                        }, 1000);
-                    }
-                });
-            });
 
-            navLinks[0].classList.add("active");
+            document.getElementById("countdown").innerHTML = `距离下一次开站还有：${days}天 ${hours}小时 ${minutes}分钟 ${seconds}秒`;
 
-            const firstSection = document.querySelector(".section");
-            firstSection.classList.add("highlight");
 
-            setTimeout(() => {
-                firstSection.classList.remove("highlight");
-            }, 1000);
-        });
+            if (distance < 0) {
+                clearInterval(countdownFunction);
+                document.getElementById("countdown").innerHTML = "本站已浴火重生，欢迎回来！";
+            }
+        }, 1000);
     </script>
-
 </body>
 </html>
